@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
-import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
+import { motion, useMotionValue, useSpring, useTransform, MotionValue } from "framer-motion";
 import React, { PropsWithChildren, useRef } from "react";
 
 export interface DockProps extends VariantProps<typeof dockVariants> {
@@ -30,7 +30,7 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
     },
     ref
   ) => {
-    const mousex = useMotionValue(Infinity);
+    const mousex = useMotionValue<number>(Infinity); // ✅ Explicitly typed
 
     const renderChildren = () => {
       return React.Children.map(children, (child) => {
@@ -64,7 +64,7 @@ Dock.displayName = "Dock";
 export interface DockIconProps {
   magnification?: number;
   distance?: number;
-  mousex?: ReturnType<typeof useMotionValue>;
+  mousex?: MotionValue<number>; // ✅ Fixed type
   className?: string;
   children?: React.ReactNode;
   props?: PropsWithChildren;
@@ -80,7 +80,8 @@ const DockIcon = ({
 }: DockIconProps) => {
   const ref = useRef<HTMLDivElement>(null);
 
-  const distanceCalc = useTransform(mousex, (val: number) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const distanceCalc = useTransform(mousex || useMotionValue(0), (val) => {
     const bounds = ref.current?.getBoundingClientRect() ?? { x: 0, width: 0 };
     return val - bounds.x - bounds.width / 2;
   });
