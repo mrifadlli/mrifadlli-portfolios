@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -36,11 +38,12 @@ export default function Contact({ BLUR_FADE_DELAY }: ContactProps) {
                     </CardHeader>
                     <CardContent>
                         <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
-                            <Input type="hidden" name="access_key" value={process.env.NEXT_PUBLIC_KEY_CONTACT_FORM ?? process.env.NEXT_PRODUCTION_KEY_CONTACT_FORM} />
+                            <Input type="hidden" name="access_key" value={process.env.NEXT_PUBLIC_KEY_CONTACT_FORM || "f593ac4d-86f4-4965-9f40-d2e130e254b3"} />
                             <div className="space-y-1.5">
                                 <Label htmlFor="name">Name</Label>
                                 <Input
                                     id="name"
+                                    name="first_name"
                                     placeholder="Enter your name"
                                     type="name"
                                     required
@@ -68,7 +71,7 @@ export default function Contact({ BLUR_FADE_DELAY }: ContactProps) {
                                 />
                             </div>
                             <Button size={"lg"} variant={"default"} type="submit" className="w-full rounded-full">
-                                {"Send Message"}
+                                Send Message
                             </Button>
                         </form>
                     </CardContent>
