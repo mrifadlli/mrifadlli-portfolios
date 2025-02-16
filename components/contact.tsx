@@ -36,7 +36,7 @@ export default function Contact({ BLUR_FADE_DELAY }: ContactProps) {
                     </CardHeader>
                     <CardContent>
                         <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
-                            <Input type="hidden" name="access_key" value={process.env.NEXT_PUBLIC_KEY_CONTACT_FORM} />
+                            <Input type="hidden" name="access_key" value={process.env.NEXT_PUBLIC_KEY_CONTACT_FORM ?? process.env.NEXT_PRODUCTION_KEY_CONTACT_FORM} />
                             <div className="space-y-1.5">
                                 <Label htmlFor="name">Name</Label>
                                 <Input
