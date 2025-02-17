@@ -65,7 +65,7 @@ export const DATA = {
             dates: "Jan 2024",
             active: true,
             description:
-                "Smart Transactions, Safe Outcomes. Blockchain-secured financial solutions.",
+                "Seamless Transactions, Secure Outcomes. Cutting-edge blockchain solutions for a smarter, safer financial future 🚀.",
             technologies: ["React", "TypeScript", "Zustand", "TailwindCSS", "Material UI"],
             links: [
                 {
@@ -159,7 +159,7 @@ export const DATA = {
     projectOverview: {
         "brancash": {
             title: "Brancash",
-            description: "Smart Transactions, Safe Outcomes. Blockchain-secured financial solutions.",
+            description: "Seamless Transactions, Secure Outcomes. Cutting-edge blockchain solutions for a smarter, safer financial future 🚀." ,
             images: [
                 "/asset_portfolio/brancash-landing/landing.webp",
                 "/asset_portfolio/brancash-landing/excrow.webp",
