@@ -43,7 +43,7 @@ export default function Contact({ BLUR_FADE_DELAY }: ContactProps) {
                                 <Label htmlFor="name">Name</Label>
                                 <Input
                                     id="name"
-                                    name="first_name"
+                                    name="name"
                                     placeholder="Enter your name"
                                     type="name"
                                     required
@@ -55,6 +55,7 @@ export default function Contact({ BLUR_FADE_DELAY }: ContactProps) {
                                 <Input
                                     id="email"
                                     placeholder="Enter your email"
+                                    name="email"
                                     type="email"
                                     required
                                     className="dark:border-neutral-400"
@@ -65,6 +66,7 @@ export default function Contact({ BLUR_FADE_DELAY }: ContactProps) {
                                 <Textarea
                                     id="message"
                                     placeholder="Enter your message"
+                                    name="message"
                                     rows={4}
                                     required
                                     className="dark:border-neutral-400"
