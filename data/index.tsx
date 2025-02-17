@@ -61,25 +61,16 @@ export const DATA = {
     projects: [
         {
             title: "Brancash",
-            href: "/brancash-landing",
+            href: "/brancash",
             dates: "Jan 2024",
             active: true,
             description:
                 "Smart Transactions, Safe Outcomes. Blockchain-secured financial solutions.",
-            technologies: [
-                "Next.js",
-                "Typescript",
-                "PostgreSQL",
-                "Prisma",
-                "TailwindCSS",
-                "Stripe",
-                "Shadcn UI",
-                "Magic UI",
-            ],
+            technologies: ["React", "TypeScript", "Zustand", "TailwindCSS", "Material UI"],
             links: [
                 {
                     type: "Website",
-                    href: "https://chatcollect.com",
+                    href: "/brancash",
                     icon: <Icons.globe className="size-4" />,
                 },
             ],
@@ -87,24 +78,15 @@ export const DATA = {
         },
         {
             title: "Digital Assets Services",
-            href: "/brancash-app",
+            href: "/digital-assets-services",
             dates: "January 2024 - Present",
             active: true,
             description: "Smart Transactions, Safe Outcomes. Blockchain-secured financial solutions.",
-            technologies: [
-                "Next.js",
-                "Typescript",
-                "PostgreSQL",
-                "Prisma",
-                "TailwindCSS",
-                "Stripe",
-                "Shadcn UI",
-                "Magic UI",
-            ],
+            technologies: ["React", "TypeScript", "Zustand", "Laravel", "MySql", "TailwindCSS", "Material UI"],
             links: [
                 {
                     type: "Website",
-                    href: "https://magicui.design",
+                    href: "/digital-assets-services",
                     icon: <Icons.globe className="size-4" />,
                 },
             ],
@@ -118,15 +100,7 @@ export const DATA = {
             active: true,
             description: "Discover and explore a world of flavors with MealsHunter! This app curates a vast collection of recipes from around the globe, helping food enthusiasts find and create delicious meals with ease. 🍽️🌍🔥",
             technologies: [
-                "Next.js",
-                "Typescript",
-                "PostgreSQL",
-                "Prisma",
-                "TailwindCSS",
-                "Shadcn UI",
-                "Magic UI",
-                "Stripe",
-                "Cloudflare Workers",
+                "Vue.Js", "Public API", "Vuex", "TailwindCSS"
             ],
             links: [
                 {
@@ -143,21 +117,11 @@ export const DATA = {
             dates: "April 2023 - March 2024",
             active: true,
             description: "Empowering financial literacy with secure, blockchain-backed solutions. Tennet Reads provides seamless access to insightful financial knowledge, ensuring smart transactions and safe outcomes for a secure future. 🚀📖",
-            technologies: [
-                "Next.js",
-                "Typescript",
-                "PostgreSQL",
-                "Prisma",
-                "TailwindCSS",
-                "Shadcn UI",
-                "Magic UI",
-                "Stripe",
-                "Cloudflare Workers",
-            ],
+            technologies: ["React", "TypeScript", "Zustand", "Express.Js", "MySql", "TailwindCSS"],
             links: [
                 {
                     type: "Website",
-                    href: "https://automatic.chat",
+                    href: "/tennet-reads",
                     icon: <Icons.globe className="size-4" />,
                 },
             ],
@@ -192,4 +156,38 @@ export const DATA = {
             },
         },
     },
+
+    projectOverview: {
+        "brancash": {
+            title: "Brancash",
+            description: "Smart Transactions, Safe Outcomes. Blockchain-secured financial solutions.",
+            images: [
+                "/asset_portfolio/brancash-landing/landing.webp",
+                "/asset_portfolio/brancash-landing/excrow.webp",
+                "/asset_portfolio/brancash-landing/dag.webp",
+                "/asset_portfolio/brancash-landing/otc.webp",
+                "/asset_portfolio/brancash-landing/consultant.webp",
+            ],
+            techStack: ["React", "TypeScript", "Zustand", "TailwindCSS", "Material UI"]
+        },
+        "digital-assets-services": {
+            title: "Digital Assets Services",
+            description: "Smart Transactions, Safe Outcomes. Blockchain-secured financial solutions.",
+            images: [
+
+            ],
+            techStack: ["React", "TypeScript", "Zustand", "Laravel", "MySql", "TailwindCSS", "Material UI"]
+        },
+        "tennet-reads": {
+            title: "Tennet Reads",
+            description: "Empowering financial literacy with secure, blockchain-backed solutions. Tennet Reads provides seamless access to insightful financial knowledge, ensuring smart transactions and safe outcomes for a secure future. 🚀📖",
+            images: [
+                "/asset_portfolio/tennet-reads/academy.webp",
+                "/asset_portfolio/tennet-reads/landing.webp",
+                "/asset_portfolio/tennet-reads/explore.webp",
+                "/asset_portfolio/tennet-reads/read.webp",
+            ],
+            techStack: ["React", "TypeScript", "Zustand", "Express.Js", "MySql", "TailwindCSS"],
+        },
+    }
 }
