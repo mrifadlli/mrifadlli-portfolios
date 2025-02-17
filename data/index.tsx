@@ -33,7 +33,7 @@ export const DATA = {
             badges: [],
             location: "On Site",
             title: "Junior Fullstack Developer",
-            logoUrl: "/tennet.svg",
+            logoUrl: "/tennet.png",
             start: "January 2024",
             description: ["Designed and developed scalable web applications using Laravel and React.js.",
                 "Collaborated with cross-functional teams to deliver user-centric solutions.",
@@ -47,7 +47,7 @@ export const DATA = {
             badges: [],
             location: "On Site",
             title: "Frontend Developer",
-            logoUrl: "/tennet.svg",
+            logoUrl: "/tennet.png",
             start: "October 2024",
             end: "December 2024",
             description: ["Developed responsive web interfaces using React and Tailwind CSS, enhancing user experience.",
@@ -81,7 +81,7 @@ export const DATA = {
             href: "/digital-assets-services",
             dates: "January 2024 - Present",
             active: true,
-            description: "Smart Transactions, Safe Outcomes. Blockchain-secured financial solutions.",
+            description: "Web application that provides Digital Asset Escrow, Digital Asset Guarantee & Digital Asset OTC, with crypto as a payment.",
             technologies: ["React", "TypeScript", "Zustand", "Laravel", "MySql", "TailwindCSS", "Material UI"],
             links: [
                 {
@@ -90,8 +90,7 @@ export const DATA = {
                     icon: <Icons.globe className="size-4" />,
                 },
             ],
-            image: "",
-            video: "https://cdn.magicui.design/bento-grid.mp4",
+            image: "/asset_portfolio/digital-assets-services/home.webp",
         },
         {
             title: "MealsHunter",
@@ -172,9 +171,12 @@ export const DATA = {
         },
         "digital-assets-services": {
             title: "Digital Assets Services",
-            description: "Smart Transactions, Safe Outcomes. Blockchain-secured financial solutions.",
+            description: "Web application that provides Digital Asset Escrow, Digital Asset Guarantee & Digital Asset OTC, with crypto as a payment.",
             images: [
-
+                "/asset_portfolio/digital-assets-services/home.webp",
+                "/asset_portfolio/digital-assets-services/escrow.webp",
+                "/asset_portfolio/digital-assets-services/otc.webp",
+                "/asset_portfolio/digital-assets-services/settings.webp",
             ],
             techStack: ["React", "TypeScript", "Zustand", "Laravel", "MySql", "TailwindCSS", "Material UI"]
         },
