@@ -18,7 +18,7 @@ export default function Navbar() {
     const resumeUrl = "/anrico-resume.pdf";
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "anrico_Resume.pdf";
+    link.download = "anrico_resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

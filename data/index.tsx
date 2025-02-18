@@ -6,7 +6,7 @@ export const DATA = {
     initials: "RF",
     description: "👨‍💻 Junior Developer | Laravel & React.js | API Integration | Performance Optimization",
 
-    summary: "A passionate Full-Stack Developer with experience in React, Laravel, and API integration. Skilled in building responsive, high-performance web applications and collaborating with UX/UI teams to create seamless user experiences.",
+    summary: "Passionate Full-Stack Developer with experience in React, Laravel, and API integration. Skilled in building responsive, high-performance web applications and collaborating with UX/UI teams to create seamless user experiences.",
 
     avatarUrl: "/xixi.jpg",
 
@@ -159,7 +159,7 @@ export const DATA = {
     projectOverview: {
         "brancash": {
             title: "Brancash",
-            description: "Seamless Transactions, Secure Outcomes. Cutting-edge blockchain solutions for a smarter, safer financial future 🚀." ,
+            description: "Seamless Transactions, Secure Outcomes. Cutting-edge blockchain solutions for a smarter, safer financial future 🚀.",
             images: [
                 "/asset_portfolio/brancash-landing/landing.webp",
                 "/asset_portfolio/brancash-landing/excrow.webp",
