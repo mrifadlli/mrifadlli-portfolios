@@ -35,7 +35,7 @@ export const DATA = {
             title: "Junior Fullstack Developer",
             logoUrl: "/tennet.png",
             start: "January 2024",
-            emd: "February 2025",
+            end: "February 2025",
             description: ["Designed and developed scalable web applications using Laravel and React.js.",
                 "Collaborated with cross-functional teams to deliver user-centric solutions.",
                 "Managed GitHub repositories, enforcing code reviews, branch protection rules, and CI workflows.",
@@ -63,7 +63,7 @@ export const DATA = {
         {
             title: "Brancash",
             href: "/brancash",
-            dates: "Jan 2024",
+            dates: "January 2024",
             active: true,
             description:
                 "Seamless Transactions, Secure Outcomes. Cutting-edge blockchain solutions for a smarter, safer financial future 🚀.",
@@ -80,7 +80,7 @@ export const DATA = {
         {
             title: "Digital Assets Services",
             href: "/digital-assets-services",
-            dates: "January 2024 - Present",
+            dates: "January 2024 - October 2024",
             active: true,
             description: "Web application that provides Digital Asset Escrow, Digital Asset Guarantee & Digital Asset OTC, with crypto as a payment.",
             technologies: ["React", "TypeScript", "Zustand", "Laravel", "MySql", "TailwindCSS", "Material UI"],
