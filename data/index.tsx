@@ -48,8 +48,8 @@ export const DATA = {
             location: "On Site",
             title: "Frontend Developer",
             logoUrl: "/tennet.png",
-            start: "October 2024",
-            end: "December 2024",
+            start: "October 2023",
+            end: "December 2023",
             description: ["Developed responsive web interfaces using React and Tailwind CSS, enhancing user experience.",
                 "Worked with UX/UI designers to align designs with user needs and improve usability.",
                 "Optimized web applications for performance, scalability, and cross-browser compatibility.",
@@ -93,6 +93,22 @@ export const DATA = {
             image: "/asset_portfolio/digital-assets-services/home.webp",
         },
         {
+            title: "TennetReads",
+            href: "/tennet-reads",
+            dates: "October 2023 - September 2023",
+            active: true,
+            description: "Empowering financial literacy with secure, blockchain-backed solutions. Tennet Reads provides seamless access to insightful financial knowledge, ensuring smart transactions and safe outcomes for a secure future. 🚀📖",
+            technologies: ["React", "TypeScript", "Zustand", "Express.Js", "MySql", "TailwindCSS"],
+            links: [
+                {
+                    type: "Website",
+                    href: "/tennet-reads",
+                    icon: <Icons.globe className="size-4" />,
+                },
+            ],
+            image: "/asset_portfolio/tennet-reads/academy.webp",
+        },
+        {
             title: "MealsHunter",
             href: "https://mealshunter-mrifadlli.vercel.app",
             dates: "April 2023 - September 2023",
@@ -109,23 +125,7 @@ export const DATA = {
                 },
             ],
             image: "/asset_portfolio/mealshunter/landing.webp",
-        },
-        {
-            title: "TennetReads",
-            href: "/tennet-reads",
-            dates: "April 2023 - March 2024",
-            active: true,
-            description: "Empowering financial literacy with secure, blockchain-backed solutions. Tennet Reads provides seamless access to insightful financial knowledge, ensuring smart transactions and safe outcomes for a secure future. 🚀📖",
-            technologies: ["React", "TypeScript", "Zustand", "Express.Js", "MySql", "TailwindCSS"],
-            links: [
-                {
-                    type: "Website",
-                    href: "/tennet-reads",
-                    icon: <Icons.globe className="size-4" />,
-                },
-            ],
-            image: "/asset_portfolio/tennet-reads/academy.webp",
-        },
+        }
     ],
 
     contact: {
