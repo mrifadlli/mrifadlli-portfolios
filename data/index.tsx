@@ -35,6 +35,7 @@ export const DATA = {
             title: "Junior Fullstack Developer",
             logoUrl: "/tennet.png",
             start: "January 2024",
+            emd: "February 2025",
             description: ["Designed and developed scalable web applications using Laravel and React.js.",
                 "Collaborated with cross-functional teams to deliver user-centric solutions.",
                 "Managed GitHub repositories, enforcing code reviews, branch protection rules, and CI workflows.",
